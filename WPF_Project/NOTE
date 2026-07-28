@@ -1,0 +1,11 @@
+NOTE
+===
+
+PWM 방식으로 서보모터 제어
+
+PWM -> TIM4-CH3(PB8)
+
+일정 시간 간격으로 DUTY 을 변화(100<->200) 하여 회전 방향을 변경 
+참고: https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=nkkh159&logNo=220565432481
+
+미니프로젝트 아이디어: 매트릭스 키버튼을 누르면 서보모터가 제어
